@@ -1,0 +1,59 @@
+/* layout.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.sidebar {
+    width: 220px;
+    background: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    min-height: 80vh;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 24px;
+    display: block;
+    transition: background 0.2s;
+}
+
+.sidebar a:hover {
+    background: #495057;
+}
+
+.content {
+    flex: 1;
+    background: #fff;
+    padding: 40px;
+}
+
+.footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 16px
